@@ -5,15 +5,13 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.6.0",
     "jasmine": "^3.5.0",
-    "jasmine-reporters": "^2.3.2",
     "perfecto-reporting": "^2.5.3",
     "protractor": "^5.4.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "protractor config.js"
   },
-  "author": "",
+  "author": "Jack Deng,Perfecto PS",
   "license": "ISC"
 }

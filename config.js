@@ -56,7 +56,6 @@ exports.config = {
         'deviceName' : '<device_id>',
         'bundleId' : 'com.apple.calculator',
         'browserName' : 'mobileOS',
-        "deviceSessionId": "A69F8DCC16541FCF53450D42CFC5E336",
         'securityToken' : '<your_security_token>'
         },
         {
@@ -67,7 +66,7 @@ exports.config = {
          'securityToken' : '<your_security_token>'
         }
     ],
-
+    //default page loading timeout in ms
     getPageTimeout: 10000,
 
     //set perfecto reporter
