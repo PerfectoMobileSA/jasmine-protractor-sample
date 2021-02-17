@@ -51,20 +51,17 @@ exports.config = {
     //Use multiCapabilities to achieve parallel execution
     multiCapabilities:  [
         {
-
-        'platformName' : 'iOS',
-        'deviceName' : '<device_id>',
-        'bundleId' : 'com.apple.calculator',
-        'browserName' : 'mobileOS',
-        'securityToken' : '<your_security_token>'
-        },
-        {
-        'platformName' : 'iOS',
-        'deviceName' : '<device_id>',
-        'bundleId' : 'com.apple.calculator',
-        'browserName' : 'mobileOS',
-         'securityToken' : '<your_security_token>'
+            'platformName': 'Android',
+            'platformVersion': '8.0.0',
+            'location': 'NA-CA-YYZ',
+            'resolution': '1440x2560',
+            'manufacturer': 'Samsung',
+            'browserName' : 'mobileOS',
+            "appPackage" : "com.sec.android.app.popupcalculator",
+            'model': 'Galaxy S7',
+            'securityToken' : '<Your Sec Token>'
         }
+        
     ],
     //default page loading timeout in ms
     getPageTimeout: 10000,
